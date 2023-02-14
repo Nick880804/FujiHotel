@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <title>日旅首頁</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="HotelName">FUKUSHIMA</a>
+        <ul>
+          <li><a href="room.html">Room</a></li>
+          <li><a href="food.html">Food</a></li>
+          <li><a href="book.html" id="Book-btn">Book Now</a></li>
+        </ul>
+        </ul>
+      </nav>
+
+      <div class="title">
+        <h1>遊ぶように、泊まる宿</h1>
+        <a href="book.html" class="letgo"
+          >立即預訂
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="letgo-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            /></svg
+        ></a>
+      </div>
+    </header>
+
+    <section class="container" id="RoomIntro">
+      <h2>Rooms & Suites</h2>
+      <div class="Room-btn">
+        <button id="TOMOE-btn">TOMOE</button>
+        <button id="KUKI-btn">KUKI</button>
+      </div>
+
+      <div id="TOMOE" class="tabcontent">
+        <div class="slideshow-container">
+          <div>
+            <div class="mySlides fade">
+              <img src="img/TOMOE1.jpg" />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="img/TOMOE2.jpg" />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="img/TOMOE3.jpg" />
+            </div>
+          </div>
+          <div>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="room-content">
+          <h3>-TOMOE-</h3>
+          <br />
+          <p>
+            以當時通過建立築後國為八女福島的發展做出貢獻的設計專家田中義正的名字命名。 從面朝街道的房間可以看到八女福島町的生活風景。
+          </p>
+          <br />
+          <div class="see-more-anchor">
+            <a href="#"
+              >See more
+              <i class="ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="KUKI" class="tabcontent">
+        <div class="slideshow-container">
+          <div>
+            <div class="mySlides2 fade">
+              <img src="img/KUKI1.jpg" />
+            </div>
+
+            <div class="mySlides2 fade">
+              <img src="img/KUKI2.jpg" />
+            </div>
+
+            <div class="mySlides2 fade">
+              <img src="img/KUKI3.jpg" />
+            </div>
+          </div>
+          <div>
+            <span class="dot2"></span>
+            <span class="dot2"></span>
+            <span class="dot2"></span>
+          </div>
+        </div>
+        <div class="room-content">
+          <h3>-KUKI-</h3>
+          <br />
+          <p>
+            在這個房間裡，你可以看到舊木材和新木材被連接在一起的地方，並深入了解日本傳統建築的接縫方法。讓自己沉浸在泥土和木材的氣味中，體驗身心的平靜。
+          </p>
+          <br />
+          <div class="see-more-anchor">
+            <a href="#"
+              >See more
+              <i class="ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="FoodIntro">
+      <h2>Breakfast & Dining</h2>
+      <div class="food-grid">
+        <div class="card breakfast">
+          <img src="img/breakfast1.jpg" alt="breakfast" />
+          <h3>朝食</h3>
+          <div class="food-content">
+            <h4>⼋の膳</h4>
+            <p>「⼋⼥」提供種類繁多健康且高品質的早餐。</p>
+          </div>
+        </div>
+        <div class="card dining">
+          <img src="img/food1.jpg" alt="dining" />
+          <h3>夕食</h3>
+          <div class="food-content">
+            <h4>葉山</h4>
+            <p>一家以鴨肉火鍋和燒鴨為主的餐廳</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210.08370883822062!2d130.5608234029709!3d33.21092662640833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541a93747b96ecf%3A0x1b393d6db78e2af7!2zUklUQeWFq-Wls-emj-Wztg!5e0!3m2!1szh-TW!2stw!4v1665171983441!5m2!1szh-TW!2stw"
+        width="100%"
+        height="400px"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <footer class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>RITA八女福島</h4>
+          <p>
+            暮らすように泊まる旅を。 明日からの “暮らし” を彩るきっかけを。
+            RITA八女福島は、お待ちしています。
+          </p>
+        </div>
+        <div>
+          <h4>連絡方式</h4>
+          <ul class="contact">
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="contact-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                />
+              </svg>
+              福岡県八女市本町13-1(〒834-0031)
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="contact-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+              Tel 0943-24-2233
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="contact-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+              rita.yamefukushima@gmail.com
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>About Us</h4>
+          <ul>
+            <li>Food</li>
+            <li>Room</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>社群</h4>
+          <a
+            href="https://www.facebook.com/rita.yamefukushima/"
+            target="_blank"
+          >
+            <img class="sns-icon" src="icon/facebook-logo.svg" alt="facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/rita.yamefukushima/"
+            target="_blank"
+          >
+            <img
+              class="sns-icon"
+              src="icon/instagram-logo.svg"
+              alt="instagram"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="homepage.js"></script>
+  </body>
+</html>
